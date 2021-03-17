@@ -69,7 +69,9 @@ class history:
                                              "calculations. Please use the "
                                              "export button to create a text "
                                              "file of all your calculations for "
-                                             "this session")
+                                             "this session", wrap=250,
+                                        font="arial 10 italic",
+                                  )
 
 # main routine
 if __name__ == "__main__":
